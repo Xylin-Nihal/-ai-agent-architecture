@@ -1,0 +1,6 @@
+2025-07-10 21:57:56.622 | INFO     | core.event_bus:subscribe:27 - perception subscribed to ['goal.perceive']
+2025-07-10 21:57:56.623 | INFO     | core.goal_coordinator:submit_goal:19 - Goal submitted: goal-001 - perceive
+2025-07-10 21:57:56.623 | INFO     | core.event_bus:publish:22 - Event published: goal.perceive
+2025-07-10 21:57:56.623 | INFO     | core.goal_coordinator:broadcast_goals:25 - Goal broadcasted: goal-001 -> goal.perceive
+2025-07-10 21:57:56.623 | INFO     | modules.perception:handle_event:9 - [perception] Perceived Event: goal.perceive
+2025-07-10 21:57:56.623 | INFO     | modules.perception:handle_event:10 - [perception] Payload: {'input': 'Look around'}
